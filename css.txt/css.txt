@@ -1,0 +1,88 @@
+css = cascading style sheet
+it is a language that is used to describe the style of a document 
+
+basic syntax:
+  selector selects those elementon which we want to apply atyling
+    selector h1{
+        property:value
+    }
+
+including styling to our structure:
+
+    1- inline styling:
+     add styling in html tag
+     <tag style= "property:value"> content </tag>
+    
+    2-<style> tag
+     <style>
+        selector
+     </style>
+
+
+    3-external style sheet
+     writing css in a separate document and linking it with html file
+     in head tag create link tag 
+     <link rel="stylesheet" href="file.css or whole path of that file">
+
+
+     priority if all three applied to same content:
+     1st inline
+     2nd style tag 
+     3rd external
+
+
+color property:
+ used to set the color of foreground(thing at front)
+  color: red
+
+bg color property:
+ used to set the color of fbackground(thing at back)
+ background-color: red
+
+color systems:
+ RGB:
+   color: rgb(255, 0 ,0) red
+   color: rgb(0,0,255) blue 
+
+ HEX(hexadecimal):
+   color: #ff0000; red first two red ff means 255 and next two 0's is green next two 0's is blue
+ 
+selectors:
+ 1- universal selector:
+     *{}
+
+ 2- Element selector
+     h1{}
+
+ 3- ID selector
+     unique name
+     #myid{}
+
+ 4- class selector:
+     for group of elements  
+     .myclass{}
+
+text properties:
+ text-align: left/right/center  start/end (start means left and end means right based on the language and where its starting or ending from)
+
+ text-decorations: underline/overline/ line through / none etc
+ none to remove any default text decorations like in anchor tag
+ 
+ font-weight: normal/bold/bolder/lighter
+ 100-900
+
+ font-family: arial/calbiri etc  we add multiple fonts so that is a browser doesnt have one it can use another one   this is called fallback mechanism
+ 
+
+ units in css:
+  - absolute units:
+     pixels 
+     96px = 1 inch
+  - relative units:
+
+ line-height: spaces between lines
+
+ text-transform: uppercase/ lowercase/ capitalize/ none
+
+
+    
