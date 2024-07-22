@@ -17,8 +17,7 @@ including styling to our structure:
      <style>
         selector
      </style>
-
-
+    
     3-external style sheet
      writing css in a separate document and linking it with html file
      in head tag create link tag 
