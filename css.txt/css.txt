@@ -17,7 +17,8 @@ including styling to our structure:
      <style>
         selector
      </style>
-    
+
+
     3-external style sheet
      writing css in a separate document and linking it with html file
      in head tag create link tag 
@@ -83,5 +84,28 @@ text properties:
 
  text-transform: uppercase/ lowercase/ capitalize/ none
 
+LEVEL 2
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+padding:
+ space between content and border
+ padding-direction: 123px 
+ clock wise format 
+ padding: top, right, bottom , left
+
+
+margin: 
+ space between boxes
+ margin-direction: 123px
+ margin:top, right, bottom , left
