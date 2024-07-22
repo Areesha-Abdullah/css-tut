@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    height: 30rem;
+    width: 23rem;
+    /* background-color: black; */
+    margin-top: 5%;
+    margin-left: 35%;
+}

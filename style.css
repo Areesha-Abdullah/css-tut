@@ -7,6 +7,11 @@ it is a language that is used to describe the style of a document */
 }
 */
 *{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+/* *{
     font-family:Arial, Helvetica, sans-serif
 }
 p{
@@ -35,4 +40,27 @@ button{
 
 #inner{
     font-size: 10px;
+} */
+/* #div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+
+}
+button{
+    background-color: #f08804
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
 }
