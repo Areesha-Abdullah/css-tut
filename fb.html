@@ -7,10 +7,120 @@
     <link rel="stylesheet" href="fb.css">
 </head>
 <body>
+    <div id="overlay"></div>
     <div class="box">
         <form>
             <h2 class="first_title">Sign Up</h2>
-            <p>it's quicl and easy</p>
+            <p id="p1">its quick and easy</p>
+            <hr/>
+            <div id="in1">
+                <input type="text" placeholder="First name" class="input" id="input0" required>
+                <input type="text" placeholder="Surname" class="input" id="input1" required>
+            </div>    
+                
+            <div id="in2">
+                <input type="text" placeholder="Mobile number or email address" class="input" id="input2" required>
+                
+                <input type="text" placeholder="New password" class="input" id="input3" required>
+            </div>
+            <!-- date of birth starts -->
+            <div>
+                <p id="dob">Date of birth</p>
+                <div id="select">
+                <select name="day" class="dropdown" id="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select name="month"  class="dropdown" id="2">
+                    <option>jan</option>
+                    <option>feb</option>
+                    <option>march</option>
+                    <option>april</option>
+                    <option>may</option>
+                    <option>june</option>
+                    <option>july</option>
+                    <option>sept</option>
+                    <option>oct</option>
+                    <option>nov</option>
+                    <option>dec</option>
+                </select>
+                <select name="yaer" class="dropdown" id="3">
+                    <option>2024</option>
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                   
+                </select>
+            </div>
+            </div>
+            <!-- date of bitrh ends  -->
+
+            <!-- gender starts 0 -->
+            <div>
+                <p>Gender</p>
+                <label for="f">Female
+                    <input type="radio" name="gender" value="Female" id="f">
+                </label>
+                <label for="m">Male
+                    <input type="radio" name="gender" value="Male" id="m">
+                </label>
+              
+                <label for="c">Custom
+                    <input type="radio" name="gender" value="Custom" id="c">
+            </div>
+                <!-- gender ends 0 -->
+                 <div>
+                    <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more</a></p>
+                    <br>
+                    <p>By clicking Sign Up, you agree to our Terms <a href="#">Privacy Policy</a> and <a href="#">Cookies policy</a>. </p>
+                    <p>You may receive SMS notifications from us and can opt out at any time.</p>
+                 </div>
+                 <div>
+                    <button>Sign up</button>
+                 </div>
+               
         </form>
     </div>
 </body>
