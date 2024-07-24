@@ -25,7 +25,7 @@
             </div>
             <!-- date of birth starts -->
             <div>
-                <p id="dob">Date of birth</p>
+                <p class="op">Date of birth</p>
                 <div id="select">
                 <select name="day" class="dropdown" id="1">
                     <option>1</option>
@@ -98,27 +98,33 @@
             <!-- date of bitrh ends  -->
 
             <!-- gender starts 0 -->
-            <div>
-                <p>Gender</p>
+            
+                <p class="op">Gender</p>
+                <div class="gen">
+                <div class="radio">
                 <label for="f">Female
-                    <input type="radio" name="gender" value="Female" id="f">
+                    <input type="radio" name="gender" value="Female" id="f" class="g">
                 </label>
+                </div>
+                <div class="radio">
                 <label for="m">Male
-                    <input type="radio" name="gender" value="Male" id="m">
+                    <input type="radio" name="gender" value="Male" id="m" class="g">
                 </label>
-              
+                </div>
+                <div class="radio">
                 <label for="c">Custom
-                    <input type="radio" name="gender" value="Custom" id="c">
-            </div>
+                    <input type="radio" name="gender" value="Custom" id="c" class="g">
+                 </div>
+                 </div>
                 <!-- gender ends 0 -->
-                 <div>
-                    <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more</a></p>
+                 <div class="lastp">
+                    <p>People who use our service may have uploaded your contact information to Facebook. <a href="#" class="a">Learn more</a></p>
                     <br>
-                    <p>By clicking Sign Up, you agree to our Terms <a href="#">Privacy Policy</a> and <a href="#">Cookies policy</a>. </p>
+                    <p>By clicking Sign Up, you agree to our Terms <a href="#" class="a">Privacy Policy</a> and <a href="#" class="a">Cookies policy</a>. </p>
                     <p>You may receive SMS notifications from us and can opt out at any time.</p>
                  </div>
-                 <div>
-                    <button>Sign up</button>
+                 <div class="button">
+                    <button id="bu1">Sign up</button>
                  </div>
                
         </form>

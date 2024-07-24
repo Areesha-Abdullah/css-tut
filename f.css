@@ -1,0 +1,22 @@
+.main{
+display:flex;
+width: 1350px;
+height: 600px;
+background-color: blue;
+justify-content: space-evenly;
+align-items: center;
+}
+.box1{
+    background-color: yellow;
+    display: flex;
+    width: 639px;
+    height: 500px;
+}
+.box2{
+    background-color: yellow;
+    display: flex;
+    width: 600px;
+    height: 400px;
+
+}
+
